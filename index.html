@@ -12,6 +12,7 @@
     <!--<script src="js/nav.js"></script>-->
     <script src="js/particles.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/learnmore.js"></script>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
@@ -68,54 +69,45 @@
 
         <section>
             <div class="container">
-                <div class="section-intro text-center mb-4"><h1>Announcements</h1></div>
-                <p>Welcome to the start of another year! Come visit our booth at the club fair on <b>Wednesday, September 1st</b>.</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
                 <div class="section-intro text-center mb-4"><h1 id="topic-header">This Week</h1></div>
                 <div class="card-deck">
 
                     <div class="card mb-4">
-                        <div class="card-header">Monday</div>
+                        <div class="card-header">Mon. (9/6)</div>
                         <div class="card-body">
                             <h3 class="card-title">Computer Club</h3>
-                            <p class="card-text">No Meeting</p>
+                            <p class="card-text">No meeting -- enjoy your day off!</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#">Learn More</a> |
+                            <a href="#" onclick="monLearnMore()">Learn More</a> |
                             <a href="https://www.youtube.com/channel/UCWhrH1YBAXAn3tRxBy5EKlw">Stream</a> |
                             <a href="comp.html">Website</a>
                         </div>
                     </div>
                     <div class="card mb-4">
-                        <div class="card-header">Tuesday</div>
+                        <div class="card-header">Tues. (9/7) @ 6:00PM in TCB203</div>
                         <div class="card-body">
-                            <h3 class="card-title">Defsec</h3>
-                            <p class="card-text">No Meeting</p>
+                            <h3 class="card-title">DefSec</h3>
+			    <p class="card-text"><b>DL101 - </b>How to use Command Line Interfaces</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#">Learn More</a> |
+                            <a href="#" onclick="tuesLearnMore()">Learn More</a> |
                             <a href="https://www.youtube.com/channel/UCwsyq1YMXiFANfWGJhZ4KTg">Stream</a> |
                             <a href="https://defsec.club">Website</a>
                         </div>
                     </div>
                     <div class="card mb-4">
-                        <div class="card-header">Wednesday</div>
+                        <div class="card-header">Wed. (9/8) @ 6:00PM in BIT213</div>
                         <div class="card-body">
                             <h3 class="card-title">Programming Club</h3>
-                            <p class="card-text">No Meeting</p>
+                            <p class="card-text">Source Control with Git and Github</p>
                         </div>
                         <div class="card-footer">
-                            <a href="#">Learn More</a> |
+                            <a href="#" onclick="wedLearnMore()">Learn More</a> |
                             <a href="https://www.youtube.com/channel/UCfkSHLElPgmx8E1PSdvLE9Q">Stream</a> |
                             <a href="https://dsuprog.club/">Website</a>
                         </div>
                     </div>
-                </div>
-                <div class="alert usual-time">
-                    *All Clubs Meet in East Hall 100 at 6:00PM
                 </div>
             </div>
         </section>
@@ -127,7 +119,9 @@
                     <h1>Stay Connected</h1>
 
                 </div>
+                <div class="section-intro text-center mb-4">
                 <h4>Use these links to stay up to date on meetings and events</h4>
+		</div>
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <a id="email-list" class="btn btn-block btn-primary join-link" href="https://forms.gle/GLvFHZ8wdq5HJUyHA" target="_blank" rel="noopener noreferrer">Email List</a>
@@ -139,7 +133,9 @@
                         <a id="slack-invite" class="btn btn-block btn-primary join-link" href="https://kernelpoppers.slack.com" target="_blank" rel="noopener noreferrer">Kernel Poppers Slack</a>
                     </div>
                 </div>
+                <div class="text-center">
                 <small class="text-center">Note: The Help Night discord and kernelpoppers Slack are not officially affiliated with DSU</small>
+		</div>
             </div>
         </section>
     </div>
